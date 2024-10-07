@@ -4,13 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío del Supermercado</title>
-    <!-- Aquí enlazas el CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Contenido de tu juego en HTML -->
+    <div class="header">
+        <h1>Desafío del Supermercado</h1>
+        <h2>Actividad colaborativa de cuarto grado</h2>
+    </div>
     
-    <!-- Aquí enlazas el archivo JavaScript -->
-    <script src="script.js" defer></script>
+    <div class="instructions">
+        <h3>Instrucciones</h3>
+        <p>El desafío del supermercado es una actividad diseñada para enseñar a los niños a gestionar un presupuesto...</p>
+        <!-- Agrega más contenido según lo que mencionaste anteriormente -->
+    </div>
+    
+    <div class="product-selection">
+        <h3>Selecciona tus productos</h3>
+        <div class="product-list">
+            <img src="https://imgur.com/hY7jnF5" alt="Manzana">
+            <img src="https://imgur.com/OBAuRUx" alt="Cereal">
+            <img src="https://imgur.com/SwfByUe" alt="Chocolate">
+            <!-- Agrega más productos -->
+        </div>
+    </div>
+    
+    <div class="calculator">
+        <input type="text" id="screen" disabled>
+        <button id="clear">Clear</button>
+        <div id="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
